@@ -4,10 +4,10 @@ let count = 0;
 function increment() {
     // Use the plus equal technique
     count += 1;
-    countEl.innerText = count;
+    countEl.textContent = count;
 }
 // Create a save() function
 function save() {
-    let preveEntire = count + " -";
-    saveEL.innerText += preveEntire;
+    let preveEntire = count + " - ";
+    saveEL.textContent += preveEntire;
 }
