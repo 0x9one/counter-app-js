@@ -10,4 +10,6 @@ function increment() {
 function save() {
     let preveEntire = count + " - ";
     saveEL.textContent += preveEntire;
+    count = 0;
+    countEl.textContent = 0;
 }
